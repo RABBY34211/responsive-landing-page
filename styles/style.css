@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    
+    display: flex;
+    
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    /* margin-bottom: 20px; */
+    
+}
+.nav-left-side{
+    
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.nav-left-side span{
+    color: #e893cf;
+    font-weight: 900;
+}
+.nav-right-side{
+    
+    width: 50%;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+
+}
+.nav-right-side a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    
+
+}
+.nav-left-side p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav-left-side img{
+    width: 10%;
+    object-fit: cover;
+}
+header{
+    background-color: #9376e0;
+}
+.nav-right-side button{
+    min-width: 100px;
+    height: 50px;
+    background-color: #e893cf;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 2px 5px;
+}
+/* banner section styles */
+.banner-section{
+    height: 400px;
+    
+    
+    display: flex;
+    padding: 15px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #e6e9eb;
+    
+
+}
+.banner-text{
+   
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+
+}
+.banner-img{
+    
+    width: 50%;
+    position: relative;
+    
+
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.banner-text-heading{
+    background: linear-gradient(45deg,#9376e0,#e893cf);
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+    
+
+}
+.banner-text-desxriptiuon{
+    font-family: "Dancing Script", cursive;
+    font-size: 3.5rem;
+    
+}
+.banner-text-icon i{
+    font-size: 2.7rem;
+    
+}
+.banner-text-icon{
+    display: flex;
+    gap: 20px;
+    
+}
+.banner-text-button .common-btn, button{
+    padding: 10px 20px;
+    border: 1px solid #e893cf;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+
+    
+}
+.circle{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(128, 128, 16);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    bottom: 47%;
+    left: 70%;
+}
+/* product-section starts herre */
+.product{
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    
+}
+.product h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.grid-container{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.single-product{
+    border: 1px solid greenyellow;
+    /* width: 30%; */
+    padding: 5px;
+    background-color: #e6e9eb;
+    border-radius: 10px;
+
+
+}
+.single-product img{
+    width: 60%;
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 10px;
+}
+.product-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-descripton {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icon{
+    background-color: #9376e0;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* product-section end herre */
+
+
+
+/* galry sectuiin start here */
+
+.gallary{
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+   
+
+
+}
+.single-galary{
+    /* width: 20%; */
+    flex-basis: 280px;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.single-galary img{
+    width: 100%;
+
+}
+.gallary-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.gallary h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+/* galry section end here */
+footer{
+    min-height: 100px;
+    
+    background-color: #9376e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

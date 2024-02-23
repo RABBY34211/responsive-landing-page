@@ -1,0 +1,105 @@
+/* for mobile */
+@media screen and (max-width:576px) {
+    /* nav start here */
+    nav{
+        flex-direction: column;
+    }
+    .nav-right-side{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+
+    }
+    .nav-left-side{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .nav-left-side img{
+        width: 40%;
+        
+    }
+    /* nav end here */
+
+    /* banner start here */
+    .banner-section{
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        align-items: center;
+        /* width: 100%; */
+    }
+    .banner-text{
+        text-align: center;
+        width: 100%;
+        order: 2;
+    }
+    .banner-img{
+        width: 100%;
+        order: 1;
+
+    }
+
+
+
+    .banner-text-icon{
+        flex-direction: column;
+        
+        gap: 20px;
+        
+    }
+
+
+
+    /* banner end here */
+
+    /* product-section starts herre */
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+
+
+
+
+
+
+    /* product-section end herre */
+
+
+   /* galry section start here */
+   
+   /* galry section end here */
+
+
+
+
+
+}
+/* for tab */
+@media screen and (min-width:577px) and (max-width:900px) {
+    /* nav start here */
+    nav{
+        flex-direction: column;
+    }
+    .nav-right-side{
+        gap: 10px;
+        justify-content: center;
+    }
+    /* nav end here */
+
+    /* banner start here */
+    
+    /* banner end here */
+
+     /* product-section starts herre */
+
+     .grid-container{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+
+    /* product-section end herre */
+
+    
+}
